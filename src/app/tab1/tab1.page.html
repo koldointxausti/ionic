@@ -1,40 +1,73 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Koldo Intxausti
+      CV
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
-    <ion-card class="welcome-card">
-      <ion-img src="/assets/img/pato.jpg"></ion-img>
+  <div class="main">
+    <ion-item text-wrap lines="none">
+      <img src="/assets/img/pato.jpg" slot="start">
+      <h4 slot="end">Koldo Intxausti</h4>
+    </ion-item> 
+    <ion-item lines="none" class="mail">
+      <ion-icon color="medium" name="mail"></ion-icon>
+      <ion-label color="medium"><p>koldointxaustii@gmail.com</p></ion-label>
+    </ion-item>
+  </div>
+    <ion-card>
       <ion-card-header>
-        <ion-card-title>Koldo Intxausti</ion-card-title>
+        <ion-icon color="primary"name="arrow-dropdown"></ion-icon>
+        <ion-card-subtitle style="font-size:14px">Formación académica</ion-card-subtitle>
       </ion-card-header>
       <ion-card-content>
         <ion-list lines="none">
-          <ion-item>
-            <ion-icon slot="start" color="medium" name="mail"></ion-icon>
-            <ion-label color="dark">koldointxaustii@gmail.com</ion-label>
+          <ion-item text-wrap>
+            <ion-text color="primary" class="bold"><p>Desarrollo de Aplicaciones Web</p></ion-text>
+            <ion-label slot="end" color="dark"><p>Cursando</p></ion-label>
+          </ion-item>
+          <ion-item text-wrap>
+            <ion-text color="primary" class="bold"><p>Sistemas Microinformáticos y Redes</p></ion-text>
+            <ion-label slot="end" color="dark"><p>09-2016 / 06-2018</p></ion-label>
           </ion-item>
         </ion-list>
       </ion-card-content>
     </ion-card>
     <ion-card>
-      <ion-item>
-        <ion-card-header>
-          <ion-card-subtitle style="border-bottom: 5px solid lightgray">
-            Experiencia Laboral
-          </ion-card-subtitle>
-        </ion-card-header>
-        <ion-card-content>
-          <ion-list lines="none">
-            <ion-item>
-              <ion-label>Hermmersbach</ion-label>
-            </ion-item>
-          </ion-list>
-        </ion-card-content>
-      </ion-item>
+      <ion-card-header>
+        <ion-icon color="primary"name="arrow-dropdown"></ion-icon>
+        <ion-card-subtitle>Experiencia Laboral</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-list lines="none">
+          <ion-item>
+            <ion-label color="primary" class="bold"><p>Hemmersbach</p></ion-label>
+            <ion-label color="dark"><p>03-2018 / 06-2018</p></ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-header>
+        <ion-icon color="primary"name="arrow-dropdown"></ion-icon>
+        <ion-card-subtitle>Idiomas</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-list lines="none">
+          <ion-item>
+            <ion-label color="primary" class="bold"><p>Euskara</p></ion-label>
+            <ion-label color="dark"><p>Legua materna</p></ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label color="primary" class="bold"><p>Castellano</p></ion-label>
+            <ion-label color="dark"><p>Legua Materna</p></ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label color="primary" class="bold"><p>Inglés</p></ion-label>
+            <ion-label color="dark">A2</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
     </ion-card>
 </ion-content>

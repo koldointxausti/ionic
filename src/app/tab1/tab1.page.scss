@@ -1,4 +1,41 @@
-.welcome-card ion-img {
-  max-height: 35vh;
-  overflow: hidden;
+.main img{
+	border-radius:360px;
+	height: 20vh;
+}
+.main h4{
+	font-size:34px;
+}
+.main{
+	border:none;
+	margin: 0 auto;
+	text-align:center;
+}
+.mail{
+	margin: 10px auto;
+	width: max-content;
+}
+ion-header{
+	color: #151515;
+}
+ion-card{
+	box-shadow: 1px 1px 100px black;
+	background-color:white;
+}
+ion-card:hover{
+	transform: scale(0.99);
+	border-radius:10px;
+}
+ion-card-header{
+	border-bottom: 5px solid gray;
+}
+ion-card-header ion-icon{
+	float:right;
+	font-size: 24px;
+	margin-top: -5px;
+}
+.bold{
+	font-weight: bold;
+}
+ion-item{
+	margin: 5px 0;
 }
